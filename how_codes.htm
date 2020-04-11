@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Html</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-container" style="font-family:courier;  background-color:beige;" >
+    <h3> </h3>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+    <ol>
+<li><p>This is a paragraph, under test.This is<strong> bold, done using <i>'strong'</i>.An indicative of important text</strong>
+This is <b>bold, done using <i>'b'</i>.</b></li>
+<br>
+    <li><p>There is a line break above this line. Can be done using<i><b>'br'</b></i>. It's a self closing tag. </li></p>
+
+<li><p style="color:green">This is in <em>italics, done using <b>'em'</b>.</em>
+This is also in <i>italics,done using <b>'i'</b>.</i> </p></li>
+
+<li><p>This is an image. Inserted using <i><b>&lt;img src=(image name.jpg)&gt;</b></i> tag.The alt tag is used after src within the img tag and is
+very importan(helps in search engine optimisation).
+It's also a self closing tag.
+<img src="favicon.ico"
+     width="90px"
+     alt="A_scenic_view">
+The width can be set using <i><b>width="__px"</i></b></p>
+</li>
+
+<li><p>The '&lt;' and '&gt;' are written to be visible to user using &+lt and &+gt(without '+' b/w & and lt/gt), since they are key symbols and the
+     complier thinks you are giving it a command if used directly.
+
+
+There are many other such special entities to enable usage of words and symbols that are used in coding html that otherwise
+    cannot be directly used. A few examples:
+    <br>
+        &nbsp; &nbsp; &nbsp; &amp; <i><b>:& + amp + ;</b></i>
+    <br>
+        &nbsp;  &nbsp; &nbsp;  &copy; <i><b>:& + copy + ;</b></i>
+        <br>
+            &nbsp;  &nbsp;   &nbsp; &nbsp;  &nbsp;   <i><b>:& + nbsp + ;</b></i></p>
+</li>
+<li>
+A link is inserted here using <i><b>&lt;a href=" &nbsp;"&gt; About the link &lt;/a&gt;</b></i>:<a href="http://www.gmail.com/" target="_blank">Click for Gmail.</a></li>
+&nbsp;To open it in a new window <i><b>target="_blank"</b></i> is used.
+&nbsp;Here's a link that opens in the same window:<a href="https://www.wordpress.com/">Click for wordpress.</a>
+Gmail Link:
+<a href="https://gmail.com/"target="_blank">Gamil link</a>
+<li>
+  <p> Here's a button:<button><a href="https://gmail.com/"target="_blank">Gmail link</a></button>.Done using &lt;button&gt;.</p>
+    </li>
+        <li><p>Here's a table:</p>  </li>
+        <table class="w3-table-all">
+            <tr>
+                <th>
+                    First Column &nbsp;  &nbsp;  &nbsp;
+                </th>
+                <th>
+                    Second Column  &nbsp;  &nbsp;  &nbsp;
+                </th>
+                <th>
+                    Third Column &nbsp;  &nbsp;  &nbsp;
+                </th>
+                </tr>
+                <tr>
+                    <td>
+                        Data One
+                    </td>
+                    <td>
+                        Data Two
+                    </td>
+                    <td>
+                        Data Three
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        This is an automatic check of spacing. &nbsp;  &nbsp;   &nbsp;
+                    </td>
+                    <td>
+                        Spacing check two. &nbsp;  &nbsp;   &nbsp;
+                    </td>
+                    <td>
+                        Spacing check three. &nbsp;  &nbsp;   &nbsp;
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Data One
+                    </td>
+                    <td>
+                        Data Two
+                    </td>
+                    <td>
+                        Data Three
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Data One
+                    </td>
+                    <td>
+                        Data Two
+                    </td>
+                    <td>
+                        Data Three
+                    </td>
+                </tr>
+                <tr rowspan="2">
+                    <td>
+                        fffd
+                    </td>
+                    <td>
+                        Data Two
+                    </td>
+                    <td>
+                        Data Three
+                    </td>
+                </tr>
+        </table>
+        <p>
+            The table is created using &lt;table&gt; tag. To create a row use &lt;tr&gt;. The elements of the main row are entered using&lt;th&gt;, which is
+            self-centring. The general elements of the the table are enterd using &lt;td&gt;, which stands for table data.
+        </p>
+        <hr>
+        <li>
+            <P>There's a line/horizontal break abive this sentence. Done using&lt;hr&gt;.</P>
+        </li>
+    <li>
+        <p>The color for words/lines attribute is &lt;p style="color:___"&gt;</p>
+    </li>
+    <li><pre>
+        The HTML &lt;pre&gt; element defines preformatted text.
+        The text inside a &lt;pre&gt; element is displayed in a fixed-width
+             font (usually Courier), and
+             it preserves
+                        both spaces and line breaks.
+                            Note the change of font. Pre stands for preset style and will be preserved during diplay.
+             </pre>
+    </li>
+    <li>
+       <p> The coloring and all other elments of style are done usig &lt;tagname style="property:value;"&gt; attribute. The property and value must satisfy css rules. There are
+        few important ones:
+        <ul>
+            <li>Background color:background-color</li>
+            <li>Text color:color</li>
+            <li>Font size:Property;font-size||value;___%</li>
+            <li>Fonts:font-family</li><li><P style="text-align:center"> Text alignment:text-align</li>
+
+            </P>
+        </ul>
+    </li>
+    <li>
+        HTML Formatting:
+        <ul>
+            <li>
+                b and strong are different. Strong adds semantic value and marks the text as important.
+            </li>
+            <li>
+                Similiarly for i and em, the em emphasises, though both are italics.
+            </li>
+            <li>
+                    To mark or highlight text the tag is
+                    &lt;mark&gt;.<mark>This is yellow.</mark>
+            </li>
+            <li>
+                For making particular elements small, use &lt;small&gt;.Useful in headings.
+            </li>
+            <li>
+                For subscript <sub>use &lt;sub&gt;</sub> and for superscript <sup>its&lt;sup&gt;</sup>.
+            </li>
+            <li>
+                The &lt;ins&gt; element represent inserted (added) text.
+
+            </li>
+            <li>
+                To strikeout the <del>words and sentences</del> use &lt;del&gt;.
+            </li>
+        </ul>
+    </li>
+    <hr>
+    <li>
+        <p style="font-size:105%">Quotes:</p>
+        <ol>
+            Usage of q|address|blockquote|abbr|bdo|cite
+            <li>
+                <p>&lt;q&gt;: The usage is to <q>add quotes</q> </p>
+            </li>
+            <li>
+                &lt;blockquote&gt;: Blockquote indents.<blockquote cite=https://en.wikipedia.org/wiki/3D_printing>The 3D printing process builds a
+                three-dimensional object from a computer-aided design (CAD) model, usually by successively adding material layer by layer, which is
+                why it is also called additive manufacturing.</blockquote>
+            </li>
+            <li>&lt;abbr tilte="example text"&gt;et&lt;abbr&gt: The full form of acronyms can be provided to user if he hovers over <abbr title="like this!">this</abbr> </li>
+            <li>
+                &lt;bdo dir="rtl"&gt;:<bdo dir="rtl"> Over-rides current text direction.</bdo>
+            </li>
+        </ol>
+    </li>
+            </ol>
+
+
+</body>
+</html>
